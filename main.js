@@ -1,18 +1,7 @@
 import './style.css'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
-
-
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyC5u64NfRzPfhOLKLK5JkzJSBIHWZJOTLk",
-  authDomain: "webrtc-intro.firebaseapp.com",
-  projectId: "webrtc-intro",
-  storageBucket: "webrtc-intro.appspot.com",
-  messagingSenderId: "562060996283",
-  appId: "1:562060996283:web:b6f1d77abeccb8d65e439e",
-  measurementId: "G-E00B1GDVEF"
-};
+import firebaseConfig from './config' 
 
 if (!firebase.apps.length){
   firebase.initializeApp(firebaseConfig)
