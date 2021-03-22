@@ -2,47 +2,20 @@
 
 ## About / Synopsis
 
-* This project is a 1-to-1 video chat, where each peer streams directly to the other peer
-* its my first step with WebRTC
-* Project status: finished
+- This project is a 1-to-1 video chat, where each peer streams directly to the other peer
+- its my first step with WebRTC
+- Project status: finished
 
-* source : https://fireship.io/lessons/webrtc-firebase-video-chat/
+- source : https://fireship.io/lessons/webrtc-firebase-video-chat/
 
 ## What I've learned
 
+### Installation
 
+Add your Firebase configuration into the config.js file.
 
-
-## Table of contents
-
-Use for instance <https://github.com/ekalinin/github-markdown-toc>:
-
-> * [Title / Repository Name](#title--repository-name)
->   * [About / Synopsis](#about--synopsis)
->   * [Table of contents](#table-of-contents)
->   * [Installation](#installation)
->   * [Usage](#usage)
->     * [Screenshots](#screenshots)
->     * [Features](#features)
->   * [Code](#code)
->     * [Content](#content)
->     * [Requirements](#requirements)
->     * [Limitations](#limitations)
->     * [Build](#build)
->     * [Deploy (how to install build product)](#deploy-how-to-install-build-product)
->   * [Resources (Documentation and other links)](#resources-documentation-and-other-links)
->   * [Contributing / Reporting issues](#contributing--reporting-issues)
->   * [License](#license)
->   * [About Nuxeo](#about-nuxeo)
-
-## Installation
-
-Sample:
-
-* Add your Firebase configuration into the config.js file. 
-* npm install
-* npm run dev
- 
+    npm install
+    npm run dev
 
 ## Usage
 
@@ -74,13 +47,13 @@ Sample: <https://github.com/nuxeo-archives/nuxeo-features/tree/master/nuxeo-elas
 
 Build options:
 
-* ...
+- ...
 
 ### Deploy (how to install build product)
 
 Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform:
 
- > Copy the built artifacts into `$NUXEO_HOME/templates/custom/bundles/` and activate the `custom` template.
+> Copy the built artifacts into `$NUXEO_HOME/templates/custom/bundles/` and activate the `custom` template.
 
 ## Resources (Documentation and other links)
 
@@ -88,8 +61,8 @@ Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform
 
 Link to JIRA component (or project if there is no component for that project). Samples:
 
-* [Link to component](https://jira.nuxeo.com/issues/?jql=project%20%3D%20NXP%20AND%20component%20%3D%20Elasticsearch%20AND%20Status%20!%3D%20%22Resolved%22%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC)
-* [Link to project](https://jira.nuxeo.com/secure/CreateIssue!default.jspa?project=NXP)
+- [Link to component](https://jira.nuxeo.com/issues/?jql=project%20%3D%20NXP%20AND%20component%20%3D%20Elasticsearch%20AND%20Status%20!%3D%20%22Resolved%22%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC)
+- [Link to project](https://jira.nuxeo.com/secure/CreateIssue!default.jspa?project=NXP)
 
 ## License
 
