@@ -16,11 +16,10 @@ source : https://fireship.io/lessons/webrtc-firebase-video-chat/
 
 ### Installation
 
-- Add your Firebase configuration into the config.js file.
-
-  npm install
-  npm run dev
+    npm install
+    npm run dev
 
 ### Requirements
 
-npm which typically comes with Node.js
+Add your Firebase configuration into the config.js file.
+npm which typically comes with Node.js - Node LTS is recommended
